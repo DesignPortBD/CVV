@@ -1,0 +1,117 @@
+@media (max-width: 1440px) {
+    .shape_area_img {
+        position: absolute;
+        right: -31px;
+        top: -2%;
+    }
+}
+
+@media (max-width: 1199px) {
+   .heading_border {
+    width: 44%;
+}
+}
+
+@media (max-width: 992px) {
+    .banner_button_wrapper {
+        padding-top: 25px;
+    }
+    .laptop_img {
+        top: 75px;
+    }
+    .banner_inner img{
+        padding-bottom: 20px;
+    }
+    .heading_border {
+        width: 60%;
+    }
+    .midel-arae{
+        position: inherit;
+        top:0px;
+    }
+    .first-arae{
+        position: inherit;
+        top: 0px;
+    }
+    .about_boxed{
+        margin-top: 30px;
+    }
+    #footer_area {
+        background-repeat: no-repeat;
+        padding: 110px 0 10px 0;
+        background-image: url(../img/footer-shap.png);
+        background-position: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading_border {
+        width: 80%;
+    }
+   .shape_area_img{
+       display: none;
+   }
+   .section_heading h2 {
+    color: #8390a3;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.wrapper_footer_area h2 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+}
+
+@media (max-width: 576px) {
+    .about_box_inner p {
+        color: #8390a3;
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .top-img{
+        width: 18%;
+    }
+    .banner_button_wrapper {
+       display: inherit;
+    } 
+    .banner_button_wrapper .banner_button:nth-child(2){
+        margin-top: 30px;
+    }
+    #cta_area {
+        padding: 55px 0;
+    }
+    #about_area {
+        padding: 140px 0 120px 0;
+    }
+    .banner_inner h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .banner_button {
+        margin-left: 00px;
+    }
+ 
+    
+}
+
+@media (max-width: 480px) {
+    .heading_border {
+        width: 90%;
+    }
+    .heading_border::before {
+        width: 36px;
+    }
+    .heading_border::after {
+        width: 36px;
+    }
+}
+
+@media (max-width: 361px) {
+    .heading_border {
+        width:100%;
+    }
+}
